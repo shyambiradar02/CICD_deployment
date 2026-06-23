@@ -11,7 +11,7 @@ from sklearn.metrics import confusion_matrix, precision_score, f1_score, recall_
 sns.set(style='white')
 
 # Load Data
-dataset = pd.read_csv(r'C:\Users\Shyam\Desktop\CICD\Iris.csv')
+dataset = pd.read_csv('Iris.csv')
 
 # Feature names (Ensure no extra spaces or parentheses)
 import re
